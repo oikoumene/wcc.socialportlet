@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+    <layer name="wcc.socialportlet"
+        interface="wcc.socialportlet.interfaces.IProductSpecific" />
+</layers>
