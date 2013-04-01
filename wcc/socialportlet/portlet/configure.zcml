@@ -5,5 +5,13 @@
 
     <include package="plone.app.portlets" file="permissions.zcml"/>
     <!-- -*- extra stuff goes here -*- -->
+    <plone:portlet
+        name="wcc.socialportlet.portlet.WCCSocialConnectPortlet"
+        interface=".wccsocialconnectportlet.IWCCSocialConnectPortlet"
+        assignment=".wccsocialconnectportlet.Assignment"
+        renderer=".wccsocialconnectportlet.Renderer"
+        addview=".wccsocialconnectportlet.AddForm"
+        editview=".wccsocialconnectportlet.EditForm"
+        />
 
 </configure>

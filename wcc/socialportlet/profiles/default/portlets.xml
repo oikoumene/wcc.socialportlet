@@ -2,5 +2,9 @@
 <portlets>
 
     <!-- -*- extra stuff goes here -*- -->
+ <portlet 
+   addview="wcc.socialportlet.portlet.WCCSocialConnectPortlet"
+   title="WCC Social Connect Portlet"
+   description=""/>
 
 </portlets>
